@@ -2,36 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-22T00:13:10 IST" name="Default suite" finished-at="2026-03-22T00:13:19 IST" duration-ms="9065">
+  <suite started-at="2026-03-25T09:32:57 IST" name="Default suite" finished-at="2026-03-25T09:33:04 IST" duration-ms="7269">
     <groups>
     </groups>
-    <test started-at="2026-03-22T00:13:10 IST" name="Default test" finished-at="2026-03-22T00:13:19 IST" duration-ms="9065">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.LoginTest@6f03482]" started-at="2026-03-22T00:13:11 IST" name="setupBrowser" finished-at="2026-03-22T00:13:16 IST" duration-ms="5356" status="PASS">
+    <test started-at="2026-03-25T09:32:57 IST" name="Default test" finished-at="2026-03-25T09:33:04 IST" duration-ms="7269">
+      <class name="tests.KeywordTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:tests.KeywordTest@5bda8e08]" started-at="2026-03-25T09:32:57 IST" name="setupBrowser" finished-at="2026-03-25T09:33:01 IST" duration-ms="3727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6f03482]" started-at="2026-03-22T00:13:16 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-03-22T00:13:18 IST" duration-ms="2100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vaceyi3307@pazard.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@1234]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testUsingKeywordsExcel()[pri:0, instance:tests.KeywordTest@5bda8e08]" started-at="2026-03-25T09:33:01 IST" name="testUsingKeywordsExcel" finished-at="2026-03-25T09:33:03 IST" duration-ms="2847" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6f03482]" started-at="2026-03-22T00:13:18 IST" name="teardown" finished-at="2026-03-22T00:13:19 IST" duration-ms="880" status="PASS">
+        </test-method> <!-- testUsingKeywordsExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.KeywordTest@5bda8e08]" started-at="2026-03-25T09:33:03 IST" name="teardown" finished-at="2026-03-25T09:33:04 IST" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.KeywordTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

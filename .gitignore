@@ -1,1 +1,6 @@
 /target/
+/test-output/
+
+# Ignore compiled files
+*.class
+*.log

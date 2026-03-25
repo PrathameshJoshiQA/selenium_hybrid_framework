@@ -35,5 +35,8 @@ public class ExcelUtils {
 				return "";
 			return cell.toString();
 	}
+	public int getRowCount() {
+	    return sheet.getPhysicalNumberOfRows();
+	}
 	
 }
